@@ -1,0 +1,72 @@
+#profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    z-index: 9;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#00cae0 10%, #00e086 100%);
+    position: absolute;
+    display: table;
+    overflow: hidden;
+    opacity: 0.80;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    text-align: center;
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.links {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    float: left;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: bisque;
+}
+#name{
+ font-size: 25px;
+  font-family:'Cinzel-Decorative',cursive;   
+}
